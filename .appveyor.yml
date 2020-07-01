@@ -5,7 +5,7 @@ version: 0.1.{build}
 install:
   # Install Rust through rustup
   - appveyor DownloadFile https://win.rustup.rs/ -FileName rustup-init.exe
-  - rustup-init -y --default-toolchain nightly-2018-08-18 --default-host i686-pc-windows-msvc
+  - rustup-init -y --default-toolchain nightly-2018-08-19 --default-host i686-pc-windows-msvc
   # Add to path
   - set PATH=%USERPROFILE%/.cargo/bin;%PATH%
   # Print the installed versions
